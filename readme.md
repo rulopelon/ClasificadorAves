@@ -185,7 +185,7 @@ La features del audio que se han escogido para el entrenamiendo del modelo son:
 Los resultados obtenidos fruto del entrenamiento no son muy alentadores, puesto que la precisión total obtenida es de tan solo un 8%. Esto es debido a que el dato que se quiere clasificar es muy complicado con mucho matices. Además la red qeu se ha seleccionado es posible que sea demasiado sencilla para poder capturar toda la complejidad de los datos y de las características extraidas.
 ### Importancia parámetros
 Al evaluar cuál parámetro tiene mayor influencia en la precisión del modelo, se ha generado el siguiente gráfico:
-![curva-entrenamiento](/images/importanciaBird.png) 
+![curva-entrenamiento](/images/importancia.png) 
 
 Esto tiene sentido puesto que el parámetro neuronas_spectrogram es el número de neuronas que tiene la red neuronal que recibe las características extraidas, entonces el núemro de neuronas que analiza dichas características es crítico.
 ### Distribución error
