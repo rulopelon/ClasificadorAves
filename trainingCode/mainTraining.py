@@ -653,7 +653,6 @@ if __name__ == '__main__':
     #torch.multiprocessing.set_start_method("spawn")# good solution !!!!
 
     study = optuna.create_study(direction="maximize")
-    #study = optuna.load_study(study_name="DatasetImagenesV2", storage="mysql://root:T3mp0r4l@192.168.253.159/optimizacion")
         
     #study.optimize(objective, n_trials=100)
 
